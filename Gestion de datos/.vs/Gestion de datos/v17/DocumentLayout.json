@@ -1,6 +1,17 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\",
+=======
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\latitude 7420\\desktop\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive - Universidad T\u00E9cnica Nacional\\2\u00B0Cuatri-3\u00B0A\u00F1o\\Software ll\\2\u00B0 Evaluaci\u00F3n\\II_EvaluacionGeneral\\Gestion de datos\\",
+>>>>>>> 14ddc19707e4d9c3d06296191b7d0769c282e13d
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -9,6 +20,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 5d14cc65b7334463122e6bf15eb9ea7ae78f53a6
     }
   ],
   "DocumentGroupContainers": [
@@ -18,6 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Evaluacion2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Evaluacion2\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T02:04:13.362Z",
+=======
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -47,7 +74,13 @@
               "RelativeToolTip": "Evaluacion2\\Controllers\\UsuarioController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-08-20T01:16:08.559Z"
+=======
+              "WhenOpened": "2024-08-20T01:16:08.559Z",
+>>>>>>> 5d14cc65b7334463122e6bf15eb9ea7ae78f53a6
+              "EditorCaption": ""
+>>>>>>> 14ddc19707e4d9c3d06296191b7d0769c282e13d
             }
           ]
         }
