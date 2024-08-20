@@ -2222,19 +2222,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "C:\\Users\\jmm7g\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
+      "projectUniqueName": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
       "projectName": "Evaluacion2",
-      "projectPath": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
+      "projectPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
+      "packagesPath": "C:\\Users\\jmm7g\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jmm7g\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2298,8 +2298,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

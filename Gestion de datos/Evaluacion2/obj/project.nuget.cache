@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "MXpu33vIdXA=",
   "success": true,
   "projectFilePath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
@@ -46,11 +45,12 @@
     "C:\\Users\\jmm7g\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\jmm7g\\.nuget\\packages\\zstdsharp.port\\0.8.0\\zstdsharp.port.0.8.0.nupkg.sha512"
   ],
-=======
-  "dgSpecHash": "KxoqzpvGkKQ=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
-  "expectedPackageFiles": [],
->>>>>>> 0165d277ca84b46e00a55285f2f7d8dbf0ebb190
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
