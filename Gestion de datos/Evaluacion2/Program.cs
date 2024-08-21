@@ -1,3 +1,5 @@
+using System;
+
 namespace Evaluacion2
 {
     public class Program
@@ -8,6 +10,11 @@ namespace Evaluacion2
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            // Inject conection string to DbContext
+            var conString = builder.Configuration.GetConnectionString("Conexion");
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseNpgsql(conString)
+            );
 
             var app = builder.Build();
 

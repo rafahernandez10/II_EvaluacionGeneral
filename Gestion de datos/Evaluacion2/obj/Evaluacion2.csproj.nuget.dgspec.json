@@ -1,27 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
-        "projectName": "Evaluacion2",
-        "projectPath": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
-        "packagesPath": "C:\\Users\\Latitude 7420\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Latitude 7420\\Desktop\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Latitude 7420\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {}
->>>>>>> 14ddc19707e4d9c3d06296191b7d0769c282e13d
   },
   "projects": {
     "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {
@@ -34,12 +14,7 @@
         "outputPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\jmm7g\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 5d14cc65b7334463122e6bf15eb9ea7ae78f53a6
->>>>>>> 14ddc19707e4d9c3d06296191b7d0769c282e13d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
