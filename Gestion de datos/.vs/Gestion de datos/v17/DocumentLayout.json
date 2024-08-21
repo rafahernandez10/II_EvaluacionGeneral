@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\",
   "Documents": [
     {
@@ -23,6 +24,10 @@
       "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\andre\\OneDrive - Universidad T\u00E9cnica Nacional\\2\u00B0Cuatri-3\u00B0A\u00F1o\\Software ll\\2\u00B0 Evaluaci\u00F3n\\II_EvaluacionGeneral\\Gestion de datos\\",
+  "Documents": [],
+>>>>>>> 2bbedcd7f888876d43765fe19b71d4ed2695525f
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,6 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -96,6 +102,13 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T04:53:17.155Z"
+=======
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+>>>>>>> 2bbedcd7f888876d43765fe19b71d4ed2695525f
             }
           ]
         }
