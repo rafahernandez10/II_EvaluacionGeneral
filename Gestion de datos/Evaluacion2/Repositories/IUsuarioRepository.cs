@@ -9,5 +9,7 @@ namespace Evaluacion2.Repositories
         void Add(UsuarioModel usuario);
         void Update(UsuarioModel usuario);
         void Delete(int id);
+
+
     }
 }

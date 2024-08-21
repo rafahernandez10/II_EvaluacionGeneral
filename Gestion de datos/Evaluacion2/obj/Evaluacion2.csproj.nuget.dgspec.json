@@ -1,28 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {}
-=======
-    "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {}
->>>>>>> 2bbedcd7f888876d43765fe19b71d4ed2695525f
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {
+    "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
+        "projectUniqueName": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
         "projectName": "Evaluacion2",
-        "projectPath": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive - Universidad Técnica Nacional\\2°Cuatri-3°Año\\Software ll\\2° Evaluación\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
+        "projectPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Evaluacion2.csproj",
+        "packagesPath": "C:\\Users\\jmm7g\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\jmm7g\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2bbedcd7f888876d43765fe19b71d4ed2695525f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,6 +46,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -86,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

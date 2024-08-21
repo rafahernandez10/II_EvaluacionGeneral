@@ -1,35 +1,50 @@
-﻿using Evaluacion2.Models;
+﻿using Evaluacion2.Data;
+using Evaluacion2.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Data.SqlClient;
 
 namespace Evaluacion2.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        private readonly SqlConnection _connection;
-    }
-    public IEnumerable<UsuarioModel> GetAll()
-    {
-        // Lógica para obtener todos los usuarios
-    }
+        private readonly AppDbContext _context;
 
-    public UsuarioModel GetById(int id)
-    {
-        // Lógica para obtener un usuario por ID
-    }
+    public UsuarioRepository(AppDbContext context)
+        {
+            _context = context;
+        }
 
-    public void Add(UsuarioModel usuario)
-    {
-        // Lógica para agregar un nuevo usuario
-    }
+        public IEnumerable<UsuarioModel> GetAll()
+        {
+            return _context.Usuarios.Include(u => u.Role).ToList();
+        }
 
-    public void Update(UsuarioModel usuario)
-    {
-        // Lógica para actualizar un usuario existente
-    }
+        public UsuarioModel GetById(int id)
+        {
+            return _context.Usuarios.Include(u => u.Role).FirstOrDefault(u => u.RoleId == id);
+        }
 
-    public void Delete(int id)
-    {
-        // Lógica para eliminar un usuario
+        public void Add(UsuarioModel usuario)
+        {
+            _context.Usuarios.Add(usuario);
+            _context.SaveChanges();
+        }
+
+        public void Update(UsuarioModel usuario)
+        {
+            _context.Usuarios.Update(usuario);
+            _context.SaveChanges();
+        }
+
+        public void Delete(int id)
+        {
+            var user = _context.Usuarios.Find(id);
+            if (user != null)
+            {
+                _context.Usuarios.Remove(user);
+                _context.SaveChanges();
+            }
+        }
     }
 }
-}
+
