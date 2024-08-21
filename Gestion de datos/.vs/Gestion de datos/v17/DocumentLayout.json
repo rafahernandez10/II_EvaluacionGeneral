@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\repositories\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\repositories\\irolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|c:\\users\\jmm7g\\onedrive\\escritorio\\ingenieria software ii\\ii_evaluaciongeneral\\gestion de datos\\evaluacion2\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D14C44E-CEC4-4170-A71B-84444FAF6BC5}|Evaluacion2\\Evaluacion2.csproj|solutionrelative:evaluacion2\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "Evaluacion2\\Repositories\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "Evaluacion2\\Repositories\\RoleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T21:17:04.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Evaluacion2\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Evaluacion2\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:44:38.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\IRolRepository.cs",
-              "RelativeDocumentMoniker": "Evaluacion2\\Repositories\\IRolRepository.cs",
-              "ToolTip": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\IRolRepository.cs",
-              "RelativeToolTip": "Evaluacion2\\Repositories\\IRolRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:12:59.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Evaluacion2\\Repositories\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\jmm7g\\OneDrive\\Escritorio\\Ingenieria software II\\II_EvaluacionGeneral\\Gestion de datos\\Evaluacion2\\Repositories\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Evaluacion2\\Repositories\\IUsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:45:43.397Z",
-              "EditorCaption": ""
             }
           ]
         }
