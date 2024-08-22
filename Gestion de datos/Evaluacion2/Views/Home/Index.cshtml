@@ -1,8 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Bienvenido a la Aplicación de Gestión de Usuarios y Roles</h2>
+<p>Esta aplicación está conectada a la base de datos:</p>
+
+<ul>
+    <li>Tipo de Base de Datos: @ViewBag.DatabaseType</li>
+    <li>Cadena de Conexión: @ViewBag.ConnectionString</li>
+</ul>
+
+<p>Seleccione una opción en el menú para comenzar a gestionar usuarios y roles.</p>

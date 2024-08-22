@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Evaluacion2.Models.RolesModel>
+
+<h2>Roles de Usuario</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Rol</th>
+            <th>Descripción</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rol in Model)
+        {
+            <tr>
+                <td>@rol.Nombre</td>
+                <td>@rol.Descripcion</td>
+                <td>@(rol.Estado)</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = rol.Id })">Detalles</a> |
+                    <a href="@Url.Action("Edit", new { id = rol.Id })">Editar</a> |
+                    <a href="@Url.Action("Delete", new { id = rol.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Rol</a>

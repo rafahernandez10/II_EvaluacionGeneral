@@ -1,0 +1,26 @@
+﻿@model Evaluacion2.Models.RolesModel
+
+<h2>Detalles del Rol</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        Nombre del Rol
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Nombre
+    </dd>
+    <dt class="col-sm-2">
+        Descripción
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Descripcion
+    </dd>
+    <dt class="col-sm-2">
+        Estado
+    </dt>
+    <dd class="col-sm-10">
+        @(Model.Estado)
+    </dd>
+</dl>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary">Volver a la Lista</a>

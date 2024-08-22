@@ -1,6 +1,6 @@
 ﻿using Evaluacion2.Models;
 
-namespace Evaluacion2.Repositories
+namespace Evaluacion2.Data.Rol
 {
     public interface IRolRepository
     {

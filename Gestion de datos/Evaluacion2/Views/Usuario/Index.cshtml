@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Evaluacion2.Models.UsuarioModel>
+
+<h2>Usuarios</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre de Usuario</th>
+            <th>Nombre Completo</th>
+            <th>Edad</th>
+            <th>Correo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.NombreDeUsuario</td>
+                <td>@usuario.NombreCompleto</td>
+                <td>@usuario.Edad</td>
+                <td>@usuario.Correo</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = usuario.Id })">Detalles</a> |
+                    <a href="@Url.Action("Edit", new { id = usuario.Id })">Editar</a> |
+                    <a href="@Url.Action("Delete", new { id = usuario.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Usuario</a>

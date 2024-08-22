@@ -1,4 +1,6 @@
+using Evaluacion2.Builder;
 using System;
+using Evaluacion2.Conexion;
 
 namespace Evaluacion2
 {
@@ -10,11 +12,17 @@ namespace Evaluacion2
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            // Inject conection string to DbContext
-            var conString = builder.Configuration.GetConnectionString("Conexion");
-            builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseNpgsql(conString)
-            );
+            // Configuración del DatabaseConfiguration
+            builder.Services.AddSingleton<DatabaseConfiguration>(sp =>
+            {
+                var dbConfigBuilder = new DatabaseConfigurationBuilder()
+                    .SetDatabaseType(DatabaseType.SqlServer) // Cambia esto según sea necesario
+                    .SetConnectionString("YourConnectionStringHere");
+
+                return dbConfigBuilder.Build();
+            });
+
+            builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
